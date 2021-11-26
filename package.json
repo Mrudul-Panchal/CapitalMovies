@@ -4,8 +4,8 @@
   "description": "react blog",
   "main": "index.js",
   "engine": {
-    "node": "10.16.0",
-    "npm": "6.9.0"
+    "node": "16.0.0",
+    "npm": "8.1.0"
   },
   "scripts": {
     "start": "node server/index.js",
@@ -16,15 +16,21 @@
   "author": "Mrudul",
   "license": "ISC",
   "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.18.3",
+    "cli-ux": "^5.6.4",
     "cookie-parser": "^1.4.3",
     "express": "^4.17.1",
+    "got": "^11.8.3",
     "heroku": "^7.59.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.4.20",
+    "phoenix": "^1.6.2",
     "react-redux": "^5.0.7",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
